@@ -1,0 +1,61 @@
+[{
+        "id": 1,
+        "image": "./assets/images/angus.jpg",
+        "clicked": false
+    },
+
+    {
+        "id": 2,
+        "image": "./assets/images/clapton.jpg",
+        "clicked": false
+    },
+
+    {
+        "id": 3,
+        "image": "./assets/images/gilmore.jpg",
+        "clicked": false
+    },
+
+    {
+        "id": 4,
+        "image": "./assets/images/hammet.jpg",
+        "clicked": false
+    },
+
+    {
+        "id": 5,
+        "image": "./assets/images/jimi.jpg",
+        "clicked": false
+    },
+
+    {
+        "id": 6,
+        "image": "./assets/images/page.jpg",
+        "clicked": false
+    },
+
+    {
+        "id": 7,
+        "image": "./assets/images/slash.jpg",
+        "clicked": false
+    },
+
+    {
+        "id": 8,
+        "image": "./assets/images/srv.jpg",
+        "clicked": false
+    },
+
+    {
+        "id": 9,
+        "image": "./assets/images/tony.jpg",
+        "clicked": false
+    },
+
+    {
+        "id": 10,
+        "image": "./assets/images/vanhalen.jpg",
+        "clicked": false
+    }
+
+]
