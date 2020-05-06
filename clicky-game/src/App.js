@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/NavBar";
 import Header from "./components/Header";
-import Card from "./components/Card";
+// import Card from "./components/Card";
 import Main from "./components/Main";
 import images from "./images.json";
 
@@ -18,35 +18,37 @@ class App extends React.Component {
     return this.state.images.sort(() => Math.random() - 0.5);
   };
 
-  handleCardClick = (event) => {
-    const currentCard = event.target.id;
-    const selectedCard = this.state.cardArray.indexOf(currentCard) > -1;
+  handleCardClick = event => {
+    const currentImage = event.target.id;
 
-    if (selectedCard) {
+    const imageClicked = this.state.cardArray.indexOf(currentImage) > -1;
+
+    if (imageClicked) {
       this.setState({
         images: this.shuffleCards(),
-        cardArray: [],
-        score: 0,
+        clickedarray: [],
+        score: 0
       });
     } else {
       this.setState({
         images: this.shuffleCards(),
-        cardArray: [],
-        score: this.state.score + 1,
+        cardArray: this.state.cardArray.concat(currentImage),
+        score: this.state.score + 1
       });
+
+      //update topscore
+      if (this.state.score >= this.state.topscore) {
+        this.setState({ topscore: this.state.score + 1 });
+      }
     }
-    if (this.state.score >= this.state.topscore) {
-      this.setState({ topScore: this.state.score + 1 });
-    }
-  };
+  }
+
   render() {
     return (
       <div>
         <Navbar score={this.state.score} topscore={this.state.topscore} />
         <Header />
-        <Main>
-          <Card handleCardClick={this.handleCardClick} />
-        </Main>
+        <Main handleCardClick={this.handleCardClick} />>
       </div>
     );
   }
