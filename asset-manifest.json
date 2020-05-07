@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/git@github.com:Elwdipath/clicky-game.git/static/css/main.dd15e40b.chunk.css",
+    "main.js": "/git@github.com:Elwdipath/clicky-game.git/static/js/main.24bc0e53.chunk.js",
+    "main.js.map": "/git@github.com:Elwdipath/clicky-game.git/static/js/main.24bc0e53.chunk.js.map",
+    "runtime-main.js": "/git@github.com:Elwdipath/clicky-game.git/static/js/runtime-main.0110fa8f.js",
+    "runtime-main.js.map": "/git@github.com:Elwdipath/clicky-game.git/static/js/runtime-main.0110fa8f.js.map",
+    "static/js/2.c897a142.chunk.js": "/git@github.com:Elwdipath/clicky-game.git/static/js/2.c897a142.chunk.js",
+    "static/js/2.c897a142.chunk.js.map": "/git@github.com:Elwdipath/clicky-game.git/static/js/2.c897a142.chunk.js.map",
+    "index.html": "/git@github.com:Elwdipath/clicky-game.git/index.html",
+    "precache-manifest.6c2a64fc0b70e5749c2006b8979fb63e.js": "/git@github.com:Elwdipath/clicky-game.git/precache-manifest.6c2a64fc0b70e5749c2006b8979fb63e.js",
+    "service-worker.js": "/git@github.com:Elwdipath/clicky-game.git/service-worker.js",
+    "static/css/main.dd15e40b.chunk.css.map": "/git@github.com:Elwdipath/clicky-game.git/static/css/main.dd15e40b.chunk.css.map",
+    "static/js/2.c897a142.chunk.js.LICENSE.txt": "/git@github.com:Elwdipath/clicky-game.git/static/js/2.c897a142.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0110fa8f.js",
+    "static/js/2.c897a142.chunk.js",
+    "static/css/main.dd15e40b.chunk.css",
+    "static/js/main.24bc0e53.chunk.js"
+  ]
+}
